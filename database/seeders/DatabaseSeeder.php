@@ -15,6 +15,7 @@ class DatabaseSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
+                'cnpj' => '00.000.000/0000-00',
                 'name' => 'Admin',
                 'email' => 'admin@anb.com',
                 'password' => bcrypt('12345678'),
