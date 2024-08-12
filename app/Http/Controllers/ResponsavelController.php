@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\responsavel;
+use App\Models\Responsavel;
 use Illuminate\Http\Request;
 
 class ResponsavelController extends Controller
@@ -34,7 +34,7 @@ class ResponsavelController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(responsavel $responsavel)
+    public function show(Responsavel $responsavel)
     {
         //
     }
@@ -42,7 +42,7 @@ class ResponsavelController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(responsavel $responsavel)
+    public function edit(Responsavel $responsavel)
     {
         //
     }
@@ -50,7 +50,7 @@ class ResponsavelController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, responsavel $responsavel)
+    public function update(Request $request, Responsavel $responsavel)
     {
         //
     }
@@ -58,7 +58,7 @@ class ResponsavelController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(responsavel $responsavel)
+    public function destroy(Responsavel $responsavel)
     {
         //
     }

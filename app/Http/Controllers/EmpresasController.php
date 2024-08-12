@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\empresas;
+use App\Models\Empresas;
 use Illuminate\Http\Request;
 
 class EmpresasController extends Controller
