@@ -11,9 +11,9 @@
                     class="app-menu__label">Home</span></a></li>
             
         <li><a class="app-menu__item" href="#"><i
-                    class="app-menu__icon bi bi-buildings"></i><span class="app-menu__label">Lista de Chamados</span></a></li>
+                    class="app-menu__icon bi bi-headset"></i><span class="app-menu__label">Lista de Chamados</span></a></li>
         
         <li><a class="app-menu__item" href="#"><i
-            class="app-menu__icon bi bi-buildings"></i><span class="app-menu__label">Notificações</span></a></li>
+            class="app-menu__icon bi bi-bell"></i><span class="app-menu__label">Notificações</span></a></li>
     </ul>
 </aside>

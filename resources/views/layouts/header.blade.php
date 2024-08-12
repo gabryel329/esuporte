@@ -1,6 +1,6 @@
 <header class="app-header">
     <a class="app-header__logo" href="/home">
-        <img src="{{ asset('images/LOGO_01_VERDE.png') }}" alt="eSUPORTE" style="height: 35px;">
+        <img src="{{ asset('images/LOGO_01_HORIZONTAL.png') }}" alt="eSUPORTE" style="height: 35px;">
     </a>
     <!-- Sidebar toggle button-->
     <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
