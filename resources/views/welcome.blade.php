@@ -33,7 +33,7 @@
             @csrf
           <h3 class="login-head"><i class="bi bi-person me-2"></i>Login</h3>
           <div class="mb-3">
-            <label class="form-label">Usuario</label>
+            <label class="form-label">E-mail</label>
             <input id="email" name="email" class="form-control" type="text" placeholder="Email" autofocus>
             @error('email')
                 <span class="invalid-feedback" role="alert">
@@ -42,7 +42,7 @@
             @enderror
           </div>
           <div class="mb-3">
-            <label class="form-label">PASSWORD</label>
+            <label class="form-label">Senha</label>
             <input class="form-control" id="password" name="password" type="password" placeholder="Password">
             @error('password')
                 <span class="invalid-feedback" role="alert">
