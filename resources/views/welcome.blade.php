@@ -33,9 +33,9 @@
                 @csrf
                 <h3 class="login-head"><i class="bi bi-person me-2"></i>Login</h3>
                 <div class="mb-3">
-                    <label class="form-label">CNPJ</label>
-                    <input id="cnpj" name="cnpj" class="form-control" type="text" placeholder="CNPJ" autofocus>
-                    @error('cnpj')
+                    <label class="form-label">CPF</label>
+                    <input id="cpf" name="cpf" class="form-control" type="text" placeholder="Insira seu CPF" autofocus>
+                    @error('cpf')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
                         </span>
@@ -63,7 +63,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function(){
-            $('#cnpj').mask('00.000.000/0000-00', {reverse: true});
+          $('#cpf').mask('000.000.000-00', {reverse: true});
         });
     </script>
 </body>

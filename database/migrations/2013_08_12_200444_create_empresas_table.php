@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('empresas', function (Blueprint $table) {
             $table->id();
-            $table->string('nome')->nullable();
-            $table->string('cnpj')->nullable();
+            $table->string('name')->nullable();
+            $table->string('cnpj')->nullable()->unique();
             $table->softDeletes();
             $table->timestamps();
         });

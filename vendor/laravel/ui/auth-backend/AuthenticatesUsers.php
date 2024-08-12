@@ -154,7 +154,7 @@ trait AuthenticatesUsers
      */
     public function username()
     {
-        return 'cnpj';
+        return 'cpf';
     }
 
     /**
