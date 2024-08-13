@@ -1,11 +1,8 @@
 <?php
 
-<<<<<<< HEAD
 use Illuminate\Support\Facades\Auth;
-=======
 use App\Http\Controllers\EmpresasController;
 use App\Http\Controllers\ResponsavelController;
->>>>>>> 3bc84db5a5eb09fed93a2b69745f9cc7499c94ed
 use Illuminate\Support\Facades\Route;
 
 /*
